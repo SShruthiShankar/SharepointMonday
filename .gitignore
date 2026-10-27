@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+client/dist/
+
+# Environment variables (contain secrets)
+.env
+.env.*
+!.env.example
+
+# Playwright persistent browser session/profile data (contains login cookies)
+server/.browser-data/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
